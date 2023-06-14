@@ -16,5 +16,10 @@
     "image"
   ],
   "author": "Buyung setiawan purnomo",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buyungSP/cordova-plugin-vector-smooth.git"
+  },
+  "homepage": "https://github.com/buyungSP/cordova-plugin-vector-smooth#readme"
 }

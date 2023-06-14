@@ -5,10 +5,10 @@
     </engines>
 
 
-    <name>Crop Smooth Plugin</name>
-    <description>Plugin for cropping images with aspect ratio</description>
+    <name>Vector drawable</name>
+    <description>Plugin for drawable images to base 64</description>
     <license>MIT</license>
-    <keywords>cordova,camera,photo,gallery,Image,Cropping</keywords>
+    <keywords>cordova,drawable,xml,res,Image</keywords>
     <author>Buyung setiawan purnomo</author>
 
     <js-module src="www/smooth.js" name="Vector">
