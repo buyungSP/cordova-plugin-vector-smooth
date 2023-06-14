@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin id="cordova-plugin-vector-smooth" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <engines>
-        <engine name="cordova" version=">=3.0.0"/>
+        <engine name="cordova" version=">=8.0.0"/>
     </engines>
 
 
