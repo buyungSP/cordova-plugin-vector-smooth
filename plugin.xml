@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-vector-smooth" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+
+
+    <name>Crop Smooth Plugin</name>
+    <description>Plugin for cropping images with aspect ratio</description>
+    <license>MIT</license>
+    <keywords>cordova,camera,photo,gallery,Image,Cropping</keywords>
+    <author>Buyung setiawan purnomo</author>
+
+    <js-module src="www/smooth.js" name="Vector">
+        <clobbers target="cordova.plugin.vector.smooth" />
+    </js-module>
+
+    <!-- Android -->
+    <platform name="android">
+        <resource-file src="src/android/smooth/crop.xml" target="res/drawable/crop.xml" />
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Vector">
+                <param name="android-package" value="smooth.plugins.cordova.vector.Vector" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/smooth/Vector.java" target-dir="src/smooth/plugins/cordova/vector"/>
+    </platform>
+</plugin>
